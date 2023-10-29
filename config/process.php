@@ -7,10 +7,10 @@
 
   $query = "SELECT * FROM contacts";
 
-  $stat = $conn->prepare($query);
+  $stmt = $conn->prepare($query);
 
   $stmt->execute();
 
   $contacts = $stmt->fetchAll();
-  
+
 ?>
