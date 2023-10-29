@@ -1,7 +1,3 @@
-body {
-  background: blue !important;
-}
-
-h1 {
-  color: green !important;
+.navbar-brand img {
+  width: 50px;
 }
